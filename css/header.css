@@ -1,0 +1,39 @@
+.header{
+    background-color: tomato;
+    grid-column: 1 / -1;
+    background-image: linear-gradient(to bottom , #4d4c4c4f , #000000) , url("../pic/header");
+    background-size: cover;
+    background-position: left;
+    display: grid;
+    grid-template-rows: repeat(3 , min-content);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+.header1{
+    font-size: 30px;
+    color: white;
+}
+.header2{
+    color: white;
+}
+.header span{
+    color: sandybrown;
+}
+.header-btn{
+    padding: 20px 30px;
+    border-radius: 0 20px;
+    color: white;
+    background-color: saddlebrown;
+    font-family: inherit;
+    font-size: 14px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.4s;
+    left: 70px;
+}
+.header-btn:hover{
+    padding: 30px 40px;
+    background: linear-gradient(45deg , #8b4513 60%, #f4a460);
+}
